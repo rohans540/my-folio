@@ -38,9 +38,9 @@ const About = () => {
       <motion.p variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leqading-[30px]'
       >
-      Software engineer with 5+ years of experience developing world class digital products with
+      Software engineer (Frontend & Full stack) with 5 years of experience developing world class digital products with
       focus on driving customer engagement and rich user experience, proven track record of fast
-      development and delivery, quick learner and good at teaching also.
+      development and delivery, quick <br className='sm:block hidden' /> learner and good at teaching also
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
