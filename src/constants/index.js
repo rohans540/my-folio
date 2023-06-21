@@ -14,19 +14,19 @@ import {
     mongodb,
     git,
     figma,
-    docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    graphql,
     accenture,
     cognam,
     skilling,
     gamio,
-    carrent,
+    poker,
+    ulink,
+    portfolio,
     jobit,
-    tripguide,
     threejs,
+    angular,
+    fernano_g,
+    sameersir
 } from "../assets";
 
 export const navLinks = [
@@ -50,15 +50,15 @@ const services = [
         icon: web,
     },
     {
-        title: "React Native Developer",
+        title: "Frontend Developer",
         icon: mobile,
     },
     {
-        title: "Backend Developer",
+        title: "Full Stack Developer",
         icon: backend,
     },
     {
-        title: "Content Creator",
+        title: "React Developer",
         icon: creator,
     },
 ];
@@ -97,8 +97,8 @@ const technologies = [
         icon: nodejs,
     },
     {
-        name: "MongoDB",
-        icon: mongodb,
+        name: "angular",
+        icon: angular,
     },
     {
         name: "Three JS",
@@ -113,8 +113,8 @@ const technologies = [
         icon: figma,
     },
     {
-        name: "docker",
-        icon: docker,
+        name: "graphql",
+        icon: graphql,
     },
 ];
 
@@ -180,27 +180,27 @@ const experiences = [
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: "Sara Lee",
-        designation: "CFO",
-        company: "Acme Co",
+            "Outstanding frontend developer who skillfully crafted our online poker app, elevating the user experience to a whole new level.",
+        name: "Sonia Singh",
+        designation: "Ops Manager",
+        company: "Gamio Technologies",
         image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Chris Brown",
-        designation: "COO",
-        company: "DEF Corp",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
+            "A highly talented frontend developer who played a crucial role in building our cutting-edge B2B remittance transfer application, delivering an exceptional user interface and seamless experience.",
+        name: "Fernando Gutierrez",
+        designation: "Head Digital Innovations",
+        company: "Uniteller",
+        image: fernano_g,
     },
     {
         testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-        name: "Lisa Wang",
-        designation: "CTO",
-        company: "456 Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+            "Rohan was the key part of our team for delivering the online business payment application for our client, he started the project from scratch and successfully delivered.",
+        name: "Sameer Taneja",
+        designation: "Director",
+        company: "Cognam Technologies",
+        image: sameersir,
     },
 ];
 
@@ -223,7 +223,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: carrent,
+        image: poker,
         source_code_link: "https://gamesoftware.gamiotech.com/",
     },
     {
@@ -244,7 +244,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: jobit,
+        image: ulink,
         source_code_link: "https://github.com/",
     },
     {
@@ -265,7 +265,7 @@ const projects = [
                 color: "pink-text-gradient",
             },
         ],
-        image: tripguide,
+        image: portfolio,
         source_code_link: "https://github.com/rohans540/my-folio",
     },
 ];

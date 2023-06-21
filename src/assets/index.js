@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -20,6 +20,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import graphql from "./tech/graphql.png";
+import angular from "./tech/angular.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -31,9 +33,15 @@ import gamio from "./company/gamio.png";
 import skilling from "./company/skilling.svg";
 
 
+import poker from "./poker.png";
+import portfolio from "./portfolio.png";
+import ulink from "./ulink.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import fernano_g from "./fernando_g.png";
+import sameersir from "./sameersir.png";
 
 export {
   logo,
@@ -54,9 +62,11 @@ export {
   nodejs,
   reactjs,
   redux,
+  graphql,
   tailwind,
   typescript,
   threejs,
+  angular,
   meta,
   shopify,
   starbucks,
@@ -68,4 +78,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  poker,
+  portfolio,
+  ulink,
+  fernano_g,
+  sameersir
 };
