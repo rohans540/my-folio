@@ -19,6 +19,10 @@ import {
     starbucks,
     tesla,
     shopify,
+    accenture,
+    cognam,
+    skilling,
+    gamio,
     carrent,
     jobit,
     tripguide,
@@ -118,8 +122,8 @@ const experiences = [
     {
         title: "Associate Software Engineer",
         company_name: "Accenture",
-        icon: starbucks,
-        iconBg: "#383E56",
+        icon: accenture,
+        iconBg: "#E6DEDD",
         date: "Aug 2018 - Jun 2019",
         points: [
             "Developing and maintaining web services using Java/J2EE and Spring Boot web framework",
@@ -131,8 +135,8 @@ const experiences = [
     {
         title: "Frontend developer",
         company_name: "Cognam Technologies",
-        icon: tesla,
-        iconBg: "#E6DEDD",
+        icon: cognam,
+        iconBg: "#383E56",
         date: "Jun 2019 - Sept 2021",
         points: [
             "Collaborated with designers and backend developers to develop, design and test web application product.",
@@ -146,7 +150,7 @@ const experiences = [
     {
         title: "Senior Software Engineer",
         company_name: "Gamio Technologies Pvt Ltd",
-        icon: shopify,
+        icon: gamio,
         iconBg: "#383E56",
         date: "Sept 2021 - Present",
         points: [
@@ -161,7 +165,7 @@ const experiences = [
     {
         title: "Frontend Developer (Freelance-contract)",
         company_name: "Skilling",
-        icon: meta,
+        icon: skilling,
         iconBg: "#E6DEDD",
         date: "Jan 2023 - Jun 2023",
         points: [
@@ -202,16 +206,16 @@ const testimonials = [
 
 const projects = [
     {
-        name: "Car Rent",
+        name: "Online Poker",
         description:
-            "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+            "Web and mobile based Real money poker game which allows user to Signup, Log-in, Add money and sit on different tables and play with multiple players.",
         tags: [
             {
                 name: "react",
                 color: "blue-text-gradient",
             },
             {
-                name: "mongodb",
+                name: "websockets",
                 color: "green-text-gradient",
             },
             {
@@ -220,12 +224,12 @@ const projects = [
             },
         ],
         image: carrent,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://gamesoftware.gamiotech.com/",
     },
     {
-        name: "Job IT",
+        name: "Ulink Business",
         description:
-            "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+            "Web application that allows user to create account as a company representative onboard a company, and create payments to their clients.",
         tags: [
             {
                 name: "react",
@@ -244,25 +248,25 @@ const projects = [
         source_code_link: "https://github.com/",
     },
     {
-        name: "Trip Guide",
+        name: "Pitching portfolio",
         description:
-            "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+            "My own portfolio to showcase my skills and experience in a better and interactive way, used 3D models and tailwind css, added functionality to contact me by sending email.",
         tags: [
             {
-                name: "nextjs",
+                name: "Reactjs",
                 color: "blue-text-gradient",
             },
             {
-                name: "supabase",
+                name: "ThreeJs",
                 color: "green-text-gradient",
             },
             {
-                name: "css",
+                name: "Tailwind",
                 color: "pink-text-gradient",
             },
         ],
         image: tripguide,
-        source_code_link: "https://github.com/",
+        source_code_link: "https://github.com/rohans540/my-folio",
     },
 ];
 
