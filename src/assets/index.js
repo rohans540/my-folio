@@ -35,6 +35,7 @@ import skilling from "./company/skilling.svg";
 
 import poker from "./poker.png";
 import portfolio from "./portfolio.png";
+import crowdfunding from "./crowdfunding.png";
 import ulink from "./ulink.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -80,6 +81,7 @@ export {
   tripguide,
   poker,
   portfolio,
+  crowdfunding,
   ulink,
   fernano_g,
   sameersir

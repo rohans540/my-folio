@@ -22,6 +22,7 @@ import {
     poker,
     ulink,
     portfolio,
+    crowdfunding,
     jobit,
     threejs,
     angular,
@@ -221,7 +222,7 @@ const projects = [
             {
                 name: "tailwind",
                 color: "pink-text-gradient",
-            },
+            }
         ],
         image: poker,
         source_code_link: "https://gamesoftware.gamiotech.com/",
@@ -268,6 +269,32 @@ const projects = [
         image: portfolio,
         source_code_link: "https://github.com/rohans540/my-folio",
     },
+
+    {
+        name: "Web3 Crowdfunding App",
+        description:
+            "An EVM based Web3 Crowdfunding application built in ReactJs, ThirdWeb and Tailwind css where user can create their campaign, get all the campaigns and donate to any campaign with their metamask account",
+        tags: [
+            {
+                name: "Reactjs",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Thirdweb",
+                color: "green-text-gradient",
+            },
+            {
+                name: "Tailwind",
+                color: "pink-text-gradient",
+            },
+            {
+                name: "Web3",
+                color: "blue-text-gradient",
+            }
+        ],
+        image: crowdfunding,
+        source_code_link: "https://github.com/rohans540/crowdfunding-client",
+    }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
