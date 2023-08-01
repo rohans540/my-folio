@@ -27,7 +27,10 @@ import {
     threejs,
     angular,
     fernano_g,
-    sameersir
+    sameersir,
+    instagram,
+    linkedIn,
+    githubSocial
 } from "../assets";
 
 export const navLinks = [
@@ -297,4 +300,22 @@ const projects = [
     }
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const socialLinks = [
+    {
+        name: "LinkedIn",
+        icon: linkedIn,
+        link: "https://www.linkedin.com/in/rohans540/"
+    },
+    {
+        name: "Github",
+        icon: githubSocial,
+        link: "https://github.com/rohans540"
+    },
+    {
+        name: "Instagram",
+        icon: instagram,
+        link: "https://www.instagram.com/rohans540/"
+    }
+]
+
+export { services, technologies, experiences, testimonials, projects, socialLinks };

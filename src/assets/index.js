@@ -43,6 +43,9 @@ import tripguide from "./tripguide.png";
 
 import fernano_g from "./fernando_g.png";
 import sameersir from "./sameersir.png";
+import instagram from "./instagram.svg";
+import linkedIn from "./linkedIn.svg";
+import githubSocial from "./githubSocial.svg";
 
 export {
   logo,
@@ -84,5 +87,8 @@ export {
   crowdfunding,
   ulink,
   fernano_g,
-  sameersir
+  sameersir,
+  instagram,
+  linkedIn,
+  githubSocial
 };
