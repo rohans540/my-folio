@@ -318,4 +318,6 @@ const socialLinks = [
     }
 ]
 
-export { services, technologies, experiences, testimonials, projects, socialLinks };
+const CALENDLY_URL = "https://calendly.com/rohans540";
+
+export { services, technologies, experiences, testimonials, projects, socialLinks, CALENDLY_URL };
