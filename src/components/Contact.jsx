@@ -6,6 +6,7 @@ import { styles } from '../style';
 import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
+import { CALENDLY_URL } from '../constants';
 
 
 const service_id = "service_lrudxci";
@@ -103,13 +104,16 @@ const Contact = () => {
               />
           </label>
 
-          <button
-            type='submit'
-            className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'
-            disabled={ !form.name || !form.email || !form.message }
-          >
-            {loading ? 'Sending...' : 'Send'}
-          </button>
+          <div className='flex justify-around'>
+            <button
+              type='submit'
+              className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'
+              disabled={ !form.name || !form.email || !form.message }
+            >
+              {loading ? 'Sending...' : 'Send'}
+            </button>
+            <span className='text-secondary hover:underline text-[12px] mt-4 cursor-pointer' onClick={() => window.open(CALENDLY_URL, '_blank')}>Wanna talk? Click here</span>
+          </div>
         </form>
 
       </motion.div>
