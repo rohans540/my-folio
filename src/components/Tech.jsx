@@ -1,13 +1,25 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { BallCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
 import { technologies } from '../constants';
+import TechContainer from './TechContainer';
 
 
 const Tech = () => {
+  const [isAndroid, setIsAndroid] = useState(false);
+
+  useEffect(() => {
+    const device = navigator.userAgent.match(/Android/i);
+    setIsAndroid(device);
+  }, [])
+
   return (
     <div className='flex flex-row flex-wrap justify-center gap-10 '>
-       {technologies.map((tech, index) => (
+       {isAndroid ? technologies.map((tech, index) => (
+        <div className='w-28 h-28' key={tech.name}>
+          <TechContainer icon={tech.icon} index={index} />
+        </div>
+       )) : technologies.map((tech, index) => (
         <div className='w-28 h-28' key={tech.name}>
           <BallCanvas icon={tech.icon} />
         </div>
