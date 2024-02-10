@@ -228,7 +228,7 @@ const projects = [
             }
         ],
         image: poker,
-        source_code_link: "https://github.com/rohans540",
+        source_code_link: "https://gamesoftware.gamiotech.com/poker",
     },
     {
         name: "Ulink Business",
