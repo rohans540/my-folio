@@ -5,9 +5,11 @@ import { styles } from '../style'
 import { services } from '../constants'
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from '../hoc'
+import { useTranslation } from 'react-i18next'
 
 
 const ServiceCard = ({ index, title, icon }) => {
+  const { t } = useTranslation()
   return (
     <Tilt className='xs:w-[250px] w-full'>
       <motion.div 
@@ -19,7 +21,7 @@ const ServiceCard = ({ index, title, icon }) => {
           className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
         >
           <img src={icon} alt={title} className='w-16 h-16 object-contain' />
-          <h3 className='text-white text-[20px] font-bold text-center'>{title}</h3>
+          <h3 className='text-white text-[20px] font-bold text-center'>{t(title)}</h3>
         </motion.div>
       </motion.div>
     </Tilt>
@@ -28,19 +30,18 @@ const ServiceCard = ({ index, title, icon }) => {
 
 
 const About = () => {
+  const { t } = useTranslation();
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>{t('introduction')}</p>
+        <h2 className={styles.sectionHeadText}>{t('overview')}.</h2>
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-      Software engineer (Frontend & Full stack) with 5 years of experience developing world class digital products with
-      focus on driving customer engagement and rich user experience, proven track record of fast
-      development and delivery, quick <br className='sm:block hidden' /> learner and good at teaching also
+      {t('aboutSummary')}
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

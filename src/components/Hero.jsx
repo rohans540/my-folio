@@ -1,9 +1,10 @@
-import React from 'react'
 import { motion } from 'framer-motion';
 import { styles } from '../style';
 import { ComputersCanvas } from './canvas';
+import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
+  const { t } = useTranslation();
   return (
     <section className='relative w-full h-screen mx-auto '>
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl 
@@ -14,9 +15,10 @@ const Hero = () => {
             <div className='w-1 sm:h-80 h-40 violet-gradient' />
         </div>
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>Hi, I'm <span className='text-[#915eef]'>Rohan</span></h1>
+          <h1 className={`${styles.heroHeadText} text-white`}>{t('greetings')} <span className='text-[#915eef]'>Rohan</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I develop user interface for modern, dynamic and interactive <br className='sm:block hidden' /> web and mobile applications.
+            {/* I develop user interface for modern, dynamic and interactive <br className='sm:block hidden' /> web and mobile applications. */}
+            {t('subText')}
           </p>
         </div>
       </div>

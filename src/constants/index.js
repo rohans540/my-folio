@@ -50,19 +50,19 @@ export const navLinks = [
 
 const services = [
     {
-        title: "Web Developer",
+        title: "webDeveloper",
         icon: web,
     },
     {
-        title: "Frontend Developer",
+        title: "frontendDev",
         icon: mobile,
     },
     {
-        title: "Full Stack Developer",
+        title: "fullStackDev",
         icon: backend,
     },
     {
-        title: "React Developer",
+        title: "reactDev",
         icon: creator,
     },
 ];
@@ -124,46 +124,46 @@ const technologies = [
 
 const experiences = [
     {
-        title: "Associate Software Engineer",
+        title: "associateSoftwareEng",
         company_name: "Accenture",
         icon: accenture,
         iconBg: "#E6DEDD",
         date: "Aug 2018 - Jun 2019",
         points: [
-            "Developing and maintaining web services using Java/J2EE and Spring Boot web framework",
-            "Collaborating with cross-functional teams including Frontend developers, product managers, and client to create high-quality web services and APIs.",
-            "Worked on an E-commerce application for UK based jewellry company.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "exp1p1",
+            "exp1p2",
+            "exp1p3",
+            "exp1p4",
         ],
     },
     {
-        title: "Frontend developer",
+        title: "frontendDev",
         company_name: "Cognam Technologies",
         icon: cognam,
         iconBg: "#383E56",
         date: "Jun 2019 - Sept 2021",
         points: [
-            "Collaborated with designers and backend developers to develop, design and test web application product.",
-            "Turning wireframes to life by building stable and maintainable codebase using React Js.",
-            "Build the Fintech remittance product from scratch, involved in flow design create new features and functionalities using AJAX and JSON.",
-            "Successfully created the product user interface and integrates the frontend with backend services.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "exp2p1",
+            "exp2p2",
+            "exp2p3",
+            "exp2p4",
+            "exp2p5",
+            "exp1p4",
         ],
     },
     {
-        title: "Senior Software Engineer",
+        title: "sse",
         company_name: "Gamio Technologies Pvt Ltd",
         icon: gamio,
         iconBg: "#383E56",
-        date: "Sept 2021 - Present",
+        date: "Sept 2021 - Aug 2023",
         points: [
-            "Developing online Real Money Gaming products focusing on driving customer engagement and rich and fast performing user interface.",
-            "Writing UI components using ReactJs, Next.js and managing data using Redux for an online multiplayer poker game.",
-            "Integration with server using Web sockets and apis.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Integration with igamio application based on React native.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "exp3p1",
+            "exp3p2",
+            "exp3p3",
+            "exp2p5",
+            "exp3p4",
+            "exp1p4",
         ],
     },
     {
@@ -171,12 +171,12 @@ const experiences = [
         company_name: "Skilling",
         icon: skilling,
         iconBg: "#E6DEDD",
-        date: "Jan 2023 - Jun 2023",
+        date: "Aug 2023 - Feb 2024",
         points: [
-            "Developing and maintaining web applications using Angular and Typescript.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Worked on their Trading application to fix bugs, develop new features and improve application performance and UX",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "exp4p1",
+            "exp4p2",
+            "exp4p3",
+            "exp1p4",
         ],
     },
 ];

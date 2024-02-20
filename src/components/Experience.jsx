@@ -6,8 +6,11 @@ import { styles } from '../style';
 import { experiences } from '../constants';
 import { SectionWrapper } from '../hoc';
 import { textVariant } from '../utils/motion';
+import { useTranslation } from 'react-i18next';
 
 const ExperienceCard = ({ experience }) => {
+
+  const { t } = useTranslation();
   
   return(
     <VerticalTimelineElement 
@@ -28,7 +31,7 @@ const ExperienceCard = ({ experience }) => {
 
       <div>
         <h3 className='text-white text-[24px] font-bold'>
-          {experience.title}
+          {t(experience.title)}
         </h3>
         <p className='text-secondary text-[16px] font-semibold' style={{ margin: 0 }}>{experience.company_name}</p>
       </div>
@@ -39,7 +42,7 @@ const ExperienceCard = ({ experience }) => {
             key={`experience-point-${index}`}
             className='text-white-100 text-[14px] pl-1 tracking-wider'
           >
-            {point}
+            {t(point)}
           </li>
         ))}
       </ul>
@@ -49,11 +52,12 @@ const ExperienceCard = ({ experience }) => {
 }
 
 const Experience = () => {
+  const { t } = useTranslation();
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>What I Have Done So Far</p>
-        <h2 className={styles.sectionHeadText}>Work Experience</h2>
+        <p className={styles.sectionSubText}>{t('whatIhaveDone')}</p>
+        <h2 className={styles.sectionHeadText}>{t('workExperience')}</h2>
       </motion.div>
 
       <div className='mt-20 flex flex-col'>
