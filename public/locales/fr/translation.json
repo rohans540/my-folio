@@ -31,5 +31,19 @@
     "exp3p4": "Intégration avec l'application igamio basée sur React Native.",
     "exp4p1": "Développement et maintenance d'applications web en utilisant Angular et Typescript.",
     "exp4p2": "Collaboration avec des équipes pluridisciplinaires comprenant des designers, des chefs de produit et d'autres développeurs pour créer des produits de haute qualité.",
-    "exp4p3": "Travaillé sur leur application de trading pour corriger les bugs, développer de nouvelles fonctionnalités et améliorer les performances de l'application et l'expérience utilisateur."
+    "exp4p3": "Travaillé sur leur application de trading pour corriger les bugs, développer de nouvelles fonctionnalités et améliorer les performances de l'application et l'expérience utilisateur.",
+    "myWork": "MON TRAVAIL",
+    "projects": "Projets",
+    "projectSubHead": "Les projets suivants mettent en valeur mes compétences et mon expérience à travers des exemples concrets de mon travail. Chaque projet est brièvement décrit avec des liens vers les dépôts de code et les démonstrations en direct. Il reflète ma capacité à résoudre des problèmes complexes, à travailler avec différentes technologies et à gérer efficacement des projets.",
+    "getInTouch": "CONTACTEZ-NOUS",
+    "yourName": "Votre Nom",
+    "nameQ": "Écrivez votre nom",
+    "yourEmail": "Votre Adresse Email",
+    "emailQ": "Écrivez votre adresse e-mail",
+    "yourMessage": "Votre Message",
+    "messageQ": "Écrivez votre message pour moi",
+    "send": "Envoyer",
+    "sending": "Envoi en cours...",
+    "scheduleAcall": "Cliquez pour planifier une réunion",
+    "copyright": "Tous droits réservés"
 }
