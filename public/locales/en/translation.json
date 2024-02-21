@@ -45,5 +45,9 @@
     "send": "Send",
     "sending": "Sending...",
     "scheduleAcall": "Click to schedule a Meeting",
-    "copyright": "All rights reserved"
+    "copyright": "All rights reserved",
+    "pokerDes": "Web and mobile based Real money poker game which allows user to Signup, Log-in, Add money and sit on different tables and play with multiple players.",
+    "ulinkDes": "Web application that allows user to create account as a company representative onboard a company, and create payments to their clients.",
+    "porffoliodes": "My own portfolio to showcase my skills and experience in a better and interactive way, used 3D models and tailwind css, added functionality to contact me by sending email.",
+    "crowdfundDes": "An EVM based Web3 Crowdfunding application built in ReactJs, ThirdWeb and Tailwind css where user can create their campaign, get all the campaigns and donate to any campaign with their metamask account"
 }

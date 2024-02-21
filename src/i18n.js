@@ -9,9 +9,20 @@ i18next
     .use(LanguageDetector)
     .use(HTTPApi)
     .init({
-        fallbackLng: "en",
+        // lng: document.querySelector('html').lang,
+        fallbackLng: "es",
         interpolation: {
             escapeValue: false
+        },
+        detection: {
+            order: ['cookie', 'localStorage', 'navigator', 'htmlTag', 'path', 'subdomain'],
+            caches: ['cookie']
+        },
+        backend: {
+            loadPath: '/locales/{{lng}}/translation.json'
+        },
+        react: {
+            useSuspense: false
         }
     })
 

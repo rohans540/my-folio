@@ -212,7 +212,7 @@ const projects = [
     {
         name: "Online Poker",
         description:
-            "Web and mobile based Real money poker game which allows user to Signup, Log-in, Add money and sit on different tables and play with multiple players.",
+            "pokerDes",
         tags: [
             {
                 name: "react",
@@ -233,7 +233,7 @@ const projects = [
     {
         name: "Ulink Business",
         description:
-            "Web application that allows user to create account as a company representative onboard a company, and create payments to their clients.",
+            "ulinkDes",
         tags: [
             {
                 name: "react",
@@ -254,7 +254,7 @@ const projects = [
     {
         name: "Pitching portfolio",
         description:
-            "My own portfolio to showcase my skills and experience in a better and interactive way, used 3D models and tailwind css, added functionality to contact me by sending email.",
+            "porffoliodes",
         tags: [
             {
                 name: "Reactjs",
@@ -276,7 +276,7 @@ const projects = [
     {
         name: "Web3 Crowdfunding App",
         description:
-            "An EVM based Web3 Crowdfunding application built in ReactJs, ThirdWeb and Tailwind css where user can create their campaign, get all the campaigns and donate to any campaign with their metamask account",
+            "crowdfundDes",
         tags: [
             {
                 name: "Reactjs",

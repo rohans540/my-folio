@@ -45,5 +45,9 @@
     "send": "Enviar",
     "sending": "Enviando...",
     "scheduleAcall": "Haz clic para programar una reunión",
-    "copyright": "Todos los derechos reservados"
+    "copyright": "Todos los derechos reservados",
+    "pokerDes": "Juego de póker en línea y móvil con dinero real que permite al usuario registrarse, iniciar sesión, añadir dinero y sentarse en diferentes mesas para jugar con varios jugadores.",
+    "ulinkDes": "Aplicación web que permite al usuario crear una cuenta como representante de una empresa, incorporarse a una empresa y realizar pagos a sus clientes.",
+    "porffoliodes": "Mi propio portafolio para mostrar mis habilidades y experiencia de una manera mejor e interactiva, usando modelos 3D y tailwind css, agregando funcionalidad para contactarme enviando un correo electrónico.",
+    "crowdfundDes": "Una aplicación de Crowdfunding basada en EVM y Web3 construida en ReactJs, ThirdWeb y Tailwind css donde el usuario puede crear su campaña, obtener todas las campañas y donar a cualquier campaña con su cuenta de Metamask."
 }
