@@ -1,5 +1,7 @@
-import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import ReactFlagsSelect from 'react-flags-select';
+import i18next from 'i18next';
 
 import { styles } from '../style'
 import { navLinks } from '../constants';
@@ -9,7 +11,16 @@ import { useTranslation } from 'react-i18next';
 const  Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
+  const [selected, setSelected] = useState("US");
   const {t} = useTranslation();
+
+  useEffect(() => {
+    const appLang = localStorage.getItem('appLang');
+    if(appLang) {
+      setSelected(appLang.toUpperCase());
+    }
+  }, [])
+
   return (
     <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
@@ -31,6 +42,25 @@ const  Navbar = () => {
                 <a href={`#${link.id}`}>{t(link.id)}</a>
               </li>
             ))}
+            <li key="lan">
+                <ReactFlagsSelect 
+                  selectButtonClassName="h-[32px]"
+                  countries={["US", "FR", "DE", "ES"]}
+                  customLabels={{ US: "EN", FR: "FR", DE: "DE", ES: "ES" }}
+                  selected={selected}
+                  showOptionLabel={false}
+                  onSelect={(code) => {
+                    setSelected(code)
+                    localStorage.setItem('appLang', code.toLowerCase());
+                    if(code === "US") {
+                      i18next.changeLanguage("en")
+                    } else {
+                      i18next.changeLanguage(code.toLowerCase())
+                    }
+                  }}
+                  placeholder={selected}
+                />
+              </li>
           </ul>
           <div
           className='sm:hidden flex flex-1 justify-end items-center'>
@@ -49,6 +79,25 @@ const  Navbar = () => {
                   <a href={`#${link.id}`}>{t(link.id)}</a>
                 </li>
               ))}
+              <li key="lan">
+                <ReactFlagsSelect 
+                    selectButtonClassName="h-[32px]"
+                    countries={["US", "FR", "DE", "ES"]}
+                    customLabels={{ US: "EN", FR: "FR", DE: "DE", ES: "ES" }}
+                    selected={selected}
+                    showOptionLabel={false}
+                    onSelect={(code) => {
+                      setSelected(code)
+                      localStorage.setItem('appLang', code.toLowerCase());
+                      if(code === "US") {
+                        i18next.changeLanguage("en")
+                      } else {
+                        i18next.changeLanguage(code.toLowerCase())
+                      }
+                    }}
+                    placeholder={selected}
+                />
+              </li>
             </ul>
             </div>
           </div>
