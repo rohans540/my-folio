@@ -10,6 +10,9 @@ import {
     reactjs,
     redux,
     tailwind,
+    gologo,
+    kafka,
+    redis,
     nodejs,
     mongodb,
     git,
@@ -17,7 +20,7 @@ import {
     graphql,
     accenture,
     cognam,
-    skilling,
+    norstella,
     gamio,
     poker,
     ulink,
@@ -62,19 +65,19 @@ const services = [
         icon: backend,
     },
     {
-        title: "reactDev",
+        title: "goDev",
         icon: creator,
     },
 ];
 
 const technologies = [
     {
-        name: "HTML 5",
-        icon: html,
+        name: "Go",
+        icon: gologo,
     },
     {
-        name: "CSS 3",
-        icon: css,
+        name: "Kafka",
+        icon: kafka,
     },
     {
         name: "JavaScript",
@@ -89,8 +92,8 @@ const technologies = [
         icon: reactjs,
     },
     {
-        name: "Redux Toolkit",
-        icon: redux,
+        name: "Redis",
+        icon: redis,
     },
     {
         name: "Tailwind CSS",
@@ -156,7 +159,7 @@ const experiences = [
         company_name: "Gamio Technologies Pvt Ltd",
         icon: gamio,
         iconBg: "#383E56",
-        date: "Sept 2021 - Aug 2023",
+        date: "Sept 2021 - Dec 2023",
         points: [
             "exp3p1",
             "exp3p2",
@@ -167,16 +170,15 @@ const experiences = [
         ],
     },
     {
-        title: "Frontend Developer (Freelance-contract)",
-        company_name: "Skilling",
-        icon: skilling,
-        iconBg: "#E6DEDD",
-        date: "Aug 2023 - Feb 2024",
+        title: "Senior software engineer",
+        company_name: "Norstella",
+        icon: norstella,
+        iconBg: "#383E56",
+        date: "Jan 2024 - Present",
         points: [
             "exp4p1",
             "exp4p2",
             "exp4p3",
-            "exp1p4",
         ],
     },
 ];
@@ -236,16 +238,24 @@ const projects = [
             "ulinkDes",
         tags: [
             {
-                name: "react",
+                name: "React",
                 color: "blue-text-gradient",
             },
             {
-                name: "restapi",
+                name: "Go",
                 color: "green-text-gradient",
             },
             {
-                name: "scss",
+                name: "Gin",
                 color: "pink-text-gradient",
+            },
+            {
+                name: "Kafka",
+                color: "blue-text-gradient",
+            },
+            {
+                name: "Postgre",
+                color: "green-text-gradient",
             },
         ],
         image: ulink,

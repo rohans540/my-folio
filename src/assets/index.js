@@ -22,6 +22,9 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import graphql from "./tech/graphql.png";
 import angular from "./tech/angular.png";
+import gologo from "./tech/gologo.png";
+import kafka from "./tech/kafkaLogo.png";
+import redis from "./tech/redislogo.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -30,7 +33,7 @@ import tesla from "./company/tesla.png";
 import accenture from "./company/accenture.png";
 import cognam from "./company/cognam.png";
 import gamio from "./company/gamio.png";
-import skilling from "./company/skilling.svg";
+import norstella from "./company/norstella.png";
 
 
 import poker from "./poker.png";
@@ -61,6 +64,9 @@ export {
   figma,
   git,
   html,
+  gologo,
+  kafka,
+  redis,
   javascript,
   mongodb,
   nodejs,
@@ -78,7 +84,7 @@ export {
   accenture,
   cognam,
   gamio,
-  skilling,
+  norstella,
   carrent,
   jobit,
   tripguide,

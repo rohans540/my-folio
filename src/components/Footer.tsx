@@ -7,7 +7,7 @@ const Footer = () => {
     const { t } = useTranslation();
   return (
     <div className='flex flex-row justify-between items-center gap-8 bg-primary p-10'>
-        <p className='sm:text-[10px] text-[14px]'>&copy; Rohan, {t('copyright')} 2024</p>
+        <p className='sm:text-[10px] text-[14px]'>&copy; Rohan, {t('copyright')} {new Date().getFullYear()}</p>
         <div className='flex flex-row justify-between items-center'>
             {socialLinks.map((link) => (
                 <div className='w-20 h-20 rounded-full flex justify-center items-center cursor-pointer' onClick={() => window.open(link.link, '_blank')}>
